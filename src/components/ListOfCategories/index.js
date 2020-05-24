@@ -10,14 +10,6 @@ function useCategoriesData () {
     const fetchCategories = async () => {
       try {
         setLoading(true)
-
-        setTimeout(
-          () => {
-            for (let index = 0; index < 10000; index++) {
-              console.log(index)
-            }
-          }, 100
-        )
         const response = await window.fetch('https://petgram-server-edwin-dev.edwinbaeza05.now.sh/categories')
         const categoriesResponse = await response.json()
         setCategories(categoriesResponse)
