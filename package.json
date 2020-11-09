@@ -1,7 +1,7 @@
 {
-  "name": "curso-platzi-react-avanzado",
+  "name": "reactgram",
   "version": "1.0.0",
-  "description": "Repositorio con el código del [Curso Avanzado de React de Platzi](https://platzi.com/cursos/react-avanzado/)",
+  "description": "Repositorio con el código",
   "main": "index.js",
   "scripts": {
     "now-build": "npm run build",
@@ -10,17 +10,9 @@
     "dev": "webpack-dev-server --history-api-fallback",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/midudev/curso-platzi-react-avanzado.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/midudev/curso-platzi-react-avanzado/issues"
-  },
-  "homepage": "https://github.com/midudev/curso-platzi-react-avanzado#readme",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
